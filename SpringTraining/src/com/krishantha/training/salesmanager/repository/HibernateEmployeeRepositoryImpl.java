@@ -1,0 +1,22 @@
+package com.krishantha.training.salesmanager.repository;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import	com.krishantha.training.salesmanager.model.Employee;
+
+public class HibernateEmployeeRepositoryImpl {
+	
+	public List<Employee> getAllEmployees(){
+		List<Employee> employee = new ArrayList<>();
+		
+		Employee employee = new Employee();
+		employee.setEmployeeName("Krishantha");
+		employee.setEmployeeLocation("Kadawatha");
+		employees.add(employee);
+		return employees;
+		
+	}
+	
+
+}
